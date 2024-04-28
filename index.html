@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="mediaQuaries.css" />
+    <title>Shobha Shah</title>
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Shobha Shah</div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+
+        <li><a href="#contact">Contact </a></li>
+      </ul>
+    </nav>
+
+    <nav id="hamburger-nav">
+      <div class="logo">Shobha Shah</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+
+          <li><a href="#contact" onclick="toggleMenu()">Contact </a></li>
+        </div>
+      </div>
+    </nav>
+
+    <section id="profile">
+      <div class="section_pic_container">
+        <img src="./assets/shobha-img.png" alt="" />
+      </div>
+      <div class="section_text">
+        <p class="section_text_p1">Hello, I'm</p>
+        <h1 class="title">Shobha Shah</h1>
+        <p class="section_text_p2">Content Writer</p>
+
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/shobha.pdf')"
+          >
+            Download CV
+          </button>
+
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Me
+          </button>
+        </div>
+
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://linkedin.com/'"
+          />
+          <img
+            src="./assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/'"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <p class="section_text_p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+
+      <div class="section-container">
+        <div class="section_pic_container">
+          <img src="./assets/shobha-img.png" alt="" class="about-img" />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img src="./assets/experience.png" alt="" class="icon" />
+              <h3>Experience</h3>
+              <p>1+ years <br />Content Writting</p>
+            </div>
+            <div class="details-container">
+              <img src="./assets/education.png" alt="" class="icon" />
+              <h3>Education</h3>
+              <p>BA (H) <br />Bachelor Degree</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              Experience content writer specializing in SEO-friendly long-form
+              articles. Passionate about crafting engaging content with in-depth
+              knowledge in SEO practices and content writing technique. Commited
+              to delivering high-quality, informative articles that resonate
+              with audiences.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <img
+        src="./assets/arrow.png"
+        alt=""
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+
+    <section id="experience">
+      <p class="section_text_p1">Skills &</p>
+      <h1 class="title">Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Skills</h2>
+            <div class="article-container">
+              <article>
+                <img src="./assets/checkmark.png" alt="" class="icon" />
+                <div>
+                  <h1>Creative writing</h1>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" alt="" class="icon" />
+                <div>
+                  <h1>Blogs and Articles</h1>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" alt="" class="icon" />
+                <div>
+                  <h1>Problem Solving</h1>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" alt="" class="icon" />
+                <div>
+                  <h1>Social media content</h1>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" alt="" class="icon" />
+                <div>
+                  <h1>Communication</h1>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" alt="" class="icon" />
+                <div>
+                  <h1>Proofreading</h1>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" alt="" class="icon" />
+                <div>
+                  <h1>Translating</h1>
+                  <p>Experienced</p>
+                </div>
+              </article>
+            </div>
+          </div>
+
+          <div class="details-container">
+            <h2 class="experience-sub-title">Work Experience</h2>
+            <div class="article-container">
+              <article class="work-article">
+                <div>
+                  <!-- <img src="./assets/checkmark.png" alt="" class="icon" /> -->
+                  <h1>ScribitIT Solutions, Noida</h1>
+                  <p style="padding-bottom: 10px">
+                    As Content Writer <br />
+                    Sep 2023 - Jan 2024
+                  </p>
+                  <p style="font-size: 1.1rem">
+                    * Writing and proofreading <br />
+                    the pre-release articles
+                  </p>
+                  <p style="font-size: 1.1rem">
+                    * Research 50+ trending <br />
+                    keywords within a day.
+                  </p>
+                </div>
+              </article>
+              <article class="work-article">
+                <div>
+                  <!-- <img src="./assets/checkmark.png" alt="" class="icon" /> -->
+                  <h1>Freelancer at College</h1>
+                  <p style="padding-bottom: 10px">
+                    As Content Writer <br />
+                    June 2023 - August 2023
+                  </p>
+                  <p style="font-size: 1.1rem">
+                    * Writing 5+ SEO friendly <br />
+                    articles within a day.
+                  </p>
+                  <p style="font-size: 1.1rem">
+                    * Research 50+ trending <br />
+                    keywords within a day.
+                  </p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt=""
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+
+    <section id="contact">
+      <p class="section_text_p1">Let's Work</p>
+      <h1 class="title">Together</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt=""
+            class="icon contact-icon email-icon"
+          />
+          <p>
+            <a href="mailto:shobhashah304@gmail.com">shobhashah304@gmail.com</a>
+          </p>
+        </div>
+        <div class="contact-info-container">
+          <img src="./assets/linkedin.png" alt="" class="icon contact-icon" />
+          <p>
+            <a href="https://www.linkedin.com">LinkedIn</a>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+
+            <li><a href="#contact">Contact </a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2024 Shobha Shaha. All Rights Reserved</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
